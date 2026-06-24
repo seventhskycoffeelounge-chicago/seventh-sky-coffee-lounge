@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seventh Sky Coffee Lounge LLC</title>
+  <style>
+    :root { --black:#0d0d0d; --gold:#c8a24a; --cream:#f7f1e7; --brown:#3b2416; --white:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Georgia,'Times New Roman',serif; background:var(--cream); color:var(--black); line-height:1.6; }
+    header { background:linear-gradient(135deg,#0d0d0d,#3b2416); color:white; text-align:center; padding:56px 20px 70px; }
+    .logo { max-width:210px; border-radius:18px; margin-bottom:24px; }
+    h1 { margin:0; font-size:clamp(2rem,5vw,4rem); letter-spacing:1px; }
+    .tagline { color:var(--gold); font-size:1.45rem; margin-top:10px; font-weight:bold; }
+    .subtitle { max-width:760px; margin:18px auto 30px; font-size:1.1rem; }
+    .button { display:inline-block; background:var(--gold); color:var(--black); padding:14px 24px; border-radius:999px; text-decoration:none; font-weight:bold; margin:8px; }
+    section { padding:56px 22px; max-width:1120px; margin:auto; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:22px; }
+    .card { background:white; border-radius:20px; padding:26px; box-shadow:0 10px 30px rgba(0,0,0,.08); border-top:5px solid var(--gold); }
+    h2 { font-size:2rem; margin-top:0; color:var(--brown); }
+    h3 { color:var(--brown); margin-bottom:8px; }
+    .founder { display:grid; grid-template-columns:220px 1fr; gap:28px; align-items:center; background:white; border-radius:24px; padding:28px; box-shadow:0 10px 30px rgba(0,0,0,.08); }
+    .founder img { width:220px; height:220px; object-fit:cover; border-radius:22px; }
+    .dark { background:var(--black); color:white; max-width:none; }
+    .dark .inner { max-width:1120px; margin:auto; }
+    .dark h2,.dark h3 { color:var(--gold); }
+    .coming { background:#fff8e8; border-left:6px solid var(--gold); padding:22px; border-radius:14px; }
+    footer { background:var(--brown); color:white; text-align:center; padding:28px 20px; }
+    @media (max-width:700px) { .founder { grid-template-columns:1fr; text-align:center; } .founder img { margin:auto; } }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="seventh-sky-logo.jpeg" alt="Seventh Sky Coffee Lounge logo" />
+    <h1>Seventh Sky Coffee Lounge LLC</h1>
+    <div class="tagline">ELEVATE. CONNECT. INSPIRE.</div>
+    <p class="subtitle">Where Hospitality, Opportunity, and Community Come Together.</p>
+    <a class="button" href="#contact">Connect With Us</a>
+    <a class="button" href="#menu">View Our Concept Menu</a>
+  </header>
+
+  <section>
+    <h2>Welcome to Seventh Sky</h2>
+    <p>Seventh Sky Coffee Lounge is being developed as a premium hospitality-driven coffee lounge and community gathering space. Our vision is to create a welcoming environment where professionals, entrepreneurs, students, remote workers, and community members can connect, work, learn, and grow.</p>
+    <div class="coming"><strong>Coming Soon:</strong> We are currently evaluating location opportunities in Chicago, with Bronzeville as the primary launch market, West Loop as an alternative market under review, and Uptown as a future expansion market.</div>
+  </section>
+
+  <section id="menu">
+    <h2>Concept Menu</h2>
+    <div class="grid">
+      <div class="card"><h3>Coffee & Espresso</h3><p>Drip coffee, cold brew, espresso, Americano, cappuccino, latte, mocha, and signature specialty drinks.</p></div>
+      <div class="card"><h3>Tea & Specialty Beverages</h3><p>Hot tea, herbal tea, iced tea, chai, matcha, seasonal beverages, and wellness-inspired options.</p></div>
+      <div class="card"><h3>Bakery & Grab-and-Go</h3><p>Croissants, muffins, danishes, cookies, coffee cake, bagels, yogurt, fruit cups, and premium snacks.</p></div>
+      <div class="card"><h3>Catering & Meeting Support</h3><p>Coffee boxes, tea boxes, pastry trays, and refreshments for business meetings, churches, nonprofits, and community events.</p></div>
+    </div>
+  </section>
+
+  <section class="dark"><div class="inner">
+    <h2>More Than a Coffee Shop</h2>
+    <div class="grid">
+      <div><h3>Community Hub</h3><p>A place designed for connection, conversation, and neighborhood engagement.</p></div>
+      <div><h3>Professional Networking</h3><p>A welcoming setting for entrepreneurs, business owners, creatives, and professionals.</p></div>
+      <div><h3>Remote Work Friendly</h3><p>Comfortable seating, strong Wi-Fi, and an environment built for productivity.</p></div>
+    </div>
+  </div></section>
+
+  <section>
+    <h2>Founder</h2>
+    <div class="founder">
+      <img src="bobby-glover-founder.jpeg" alt="Bobby Glover, Founder" />
+      <div>
+        <h3>Bobby Glover</h3>
+        <p><strong>Founder & Managing Member</strong></p>
+        <p>Bobby Glover is an experienced business and operations leader with more than 30 years of leadership experience in hospitality, restaurants, hotels, customer service, financial management, and multi-site operations.</p>
+        <p>His leadership philosophy is simple: take care of your employees, take care of your customers, take care of your obligations, plan for challenges before they occur, and build stability before growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>To provide exceptional hospitality experiences that bring people together, inspire personal and professional growth, and create meaningful opportunities for connection within the communities we serve.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Seventh Sky Coffee Lounge LLC</strong></p>
+    <p>Email: Add your business email here</p>
+    <p>Phone: Add your business phone here</p>
+    <p>Location: Chicago, Illinois — Coming Soon</p>
+  </section>
+
+  <footer>
+    <p><strong>Seventh Sky Coffee Lounge LLC</strong></p>
+    <p>Elevate. Connect. Inspire.</p>
+    <p>© 2026 Seventh Sky Coffee Lounge LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
