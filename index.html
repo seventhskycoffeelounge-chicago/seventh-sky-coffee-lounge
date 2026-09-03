@@ -22,6 +22,55 @@ h<!DOCTYPE html>
 .menu-card h3 { margin-top:0; font-size:1.35rem; }
 .menu-tagline { color:var(--brown); font-style:italic; font-weight:600; margin:6px 0 12px; }
 .menu-card p:last-child { line-height:1.65; margin-bottom:0; }
+    .experience-section { padding-top:64px; padding-bottom:64px; }
+
+.experience-heading { max-width:760px; margin-bottom:32px; }
+
+.eyebrow {
+  display:block;
+  color:var(--gold);
+  font-size:.82rem;
+  font-weight:700;
+  letter-spacing:.16em;
+  margin-bottom:10px;
+}
+
+.experience-heading p {
+  color:#f3eee5;
+  font-size:1.1rem;
+  line-height:1.7;
+  margin-bottom:0;
+}
+
+.experience-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:22px;
+}
+
+.experience-card {
+  background:linear-gradient(145deg,#171717,#0d0d0d);
+  border:1px solid rgba(200,162,74,.5);
+  border-radius:22px;
+  padding:28px;
+}
+
+.experience-icon {
+  font-size:2rem;
+  margin-bottom:14px;
+}
+
+.experience-card h3 {
+  color:var(--gold);
+  font-size:1.35rem;
+  margin-top:0;
+}
+
+.experience-card p {
+  color:#f4efe7;
+  line-height:1.65;
+  margin-bottom:0;
+}
     h2 { font-size:2rem; margin-top:0; color:var(--brown); }
     h3 { color:var(--brown); margin-bottom:8px;}
     .founder { display:grid; grid-template-columns:220px 1fr; gap:28px; align-items:center; background:white; border-radius:24px; padding:28px; box-shadow:0 10px 30px rgba(0,0,0,.08); }
@@ -92,15 +141,38 @@ h<!DOCTYPE html>
 </div>
     </div>
   </section>
-
-  <section class="dark"><div class="inner">
-    <h2>More Than a Coffee Shop</h2>
-    <div class="grid">
-      <div><h3>Community Hub</h3><p>A place designed for connection, conversation, and neighborhood engagement.</p></div>
-      <div><h3>Professional Networking</h3><p>A welcoming setting for entrepreneurs, business owners, creatives, and professionals.</p></div>
-      <div><h3>Remote Work Friendly</h3><p>Comfortable seating, strong Wi-Fi, and an environment built for productivity.</p></div>
+<section class="dark experience-section">
+  <div class="inner">
+    <div class="experience-heading">
+      <span class="eyebrow">THE SEVENTH SKY EXPERIENCE</span>
+      <h2>More Than a Coffee Shop</h2>
+      <p>Designed to be a place where people feel welcomed, connected, productive, and inspired.</p>
     </div>
-  </div></section>
+
+    <div class="experience-grid">
+
+      <div class="experience-card">
+        <div class="experience-icon">🤝</div>
+        <h3>Community & Connection</h3>
+        <p>A welcoming environment created for conversation, connection, and meaningful moments.</p>
+      </div>
+
+      <div class="experience-card">
+        <div class="experience-icon">💼</div>
+        <h3>Professional Networking</h3>
+        <p>A polished, comfortable setting where professionals, entrepreneurs, and community leaders can connect and grow.</p>
+      </div>
+
+      <div class="experience-card">
+        <div class="experience-icon">💻</div>
+        <h3>Remote Work Friendly</h3>
+        <p>Comfortable seating, a premium atmosphere, and a space designed for working, meeting, and creating.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
   <section>
     <h2>Founder</h2>
